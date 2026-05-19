@@ -1,4 +1,4 @@
-````markdown
+
 # Automated Delta-Epsilon Limit Verifier
 
 By representing mathematical functions as dynamic **Abstract Syntax Trees (ASTs)** and applying a bounded **Binary Search** optimization, this tool calculates the maximum allowable input boundary ($\delta$) for any given output tolerance ($\epsilon$) down to seven decimal places of precision.
@@ -172,5 +172,4 @@ The automated verifier converged on **$0.002498$**, matching the true analytical
 
 * **Floating-Point Awareness:** Floating-point operations inherently introduce precision limitations. By implementing a custom absolute difference threshold (`1e-9`) rather than strict equality evaluations (`== 0`), the logic completely bypasses standard machine epsilon inaccuracies when dealing with coordinates infinitely close to $c$.
 
-```
 ```

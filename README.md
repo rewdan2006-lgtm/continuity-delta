@@ -1,6 +1,4 @@
-# Automated Delta-Epsilon ($\delta$-$\epsilon$) Limit Verifier
-
-An algorithmic bridge between pure real analysis and low-level system software. This project replaces the traditional, human-centric algebraic approximations of limits with a rigorous, computer-driven numerical verification engine written in pure C. 
+# Automated Delta-Epsilon  Limit Verifier
 
 By representing mathematical functions as dynamic **Abstract Syntax Trees (ASTs)** and applying a bounded **Binary Search** optimization, this tool calculates the maximum allowable input boundary ($\delta$) for any given output tolerance ($\epsilon$) down to seven decimal places of precision.
 
